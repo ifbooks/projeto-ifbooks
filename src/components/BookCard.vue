@@ -9,7 +9,7 @@ const props = defineProps({
 const cart = useCartStore()
 
 function adicionarAoCarrinho() {
-  cart.addToCart(props.book)
+  cart.adicionarAoCarrinho(props.book)
 }
 
 </script>
