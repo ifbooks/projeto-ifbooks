@@ -1,3 +1,19 @@
+<script setup>
+import { useCartStore } from '@/stores/cart'
+import { defineProps } from 'vue'
+
+const props = defineProps({
+  book: Object
+})
+
+const cart = useCartStore()
+
+function adicionarAoCarrinho() {
+  cart.addToCart(props.book)
+}
+
+</script>
+
 <template>
   <div class="book-card">
     <div class="image-container">
@@ -9,19 +25,12 @@
     <h2 class="book-title">{{ book.title }}</h2>
     <p class="book-author">{{ book.author }}</p>
     <p class="book-price">R${{ book.price }}</p>
-    <button class="buy-button">Comprar</button>
+    <button class="buy-button" @click="adicionarAoCarrinho">Comprar</button>
   </div>
 </template>
 
 
-<script>
-export default {
-  name: "BookCard",
-  props: {
-    book: Object,
-  },
-};
-</script>
+
 <style scoped>
 .image-container {
   position: relative;
