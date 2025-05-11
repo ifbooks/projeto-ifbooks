@@ -85,7 +85,7 @@ export default {
   </div>
     <div class="search">
         <input type="text" placeholder="Pesquisar">
-        <button><img src="/public/images/lupa.png" alt="lupa"></button>
+        <button><img src="/images/lupa.png" alt="lupa"></button>
     </div>
     <nav>
         <ul>
@@ -97,15 +97,15 @@ export default {
     </nav>
 <div class="iconbase">
     <div class="icon">
- <router-link to="/carrinho"><img src="/public/images/carrinho1.png" alt="carrinho"></router-link>
+ <router-link to="/carrinho"><img src="/images/carrinho1.png" alt="carrinho"></router-link>
     </div>
     <div class="divisor2"></div>
     <div class="icon">
-        <img src="/public/images/heart.png" alt="favoritos">
+        <img src="/images/heart.png" alt="favoritos">
     </div>
     <div class="divisor2"></div>
     <div class="icon">
-        <img src="/public/images/usuario.png" alt="usuario">
+        <img src="/images/usuario.png" alt="usuario">
     </div>
 </div>
   </header>
@@ -121,15 +121,15 @@ export default {
       </p>
       <button>Acessar página do livro</button>
     </div>
-    <img class="imagem-livro" src="/public/images/cemanosdesolidao.jpg" alt="Livro cem anos de solidão" />
+    <img class="imagem-livro" src="/images/cemanosdesolidao.jpg" alt="Livro cem anos de solidão" />
   </div>
     <div class="linha"></div>
     <div class="info">
-     <p><img src="/public/images/Truck.png" alt="caminhão">Frete grátis para SC</p>
+     <p><img src="/images/Truck.png" alt="caminhão">Frete grátis para SC</p>
      <div class="divider"></div>
-     <p><img src="/public/images/estrela.png" alt="estrela">Livros recomendados</p>
+     <p><img src="/images/estrela.png" alt="estrela">Livros recomendados</p>
      <div class="divider"></div>
-     <p><img src="/public/images/livroaberto.png" alt="livro aberto">Mais vendidos</p>
+     <p><img src="/images/livroaberto.png" alt="livro aberto">Mais vendidos</p>
     </div>
       <div class="linha"></div>
     <div class="lançamento">
@@ -153,23 +153,23 @@ export default {
     <div class="footer-left">
       <p class="footer-logo">IFbooks</p>
       <div class="footer-social">
-        <img src="/public/images/facebook.png" alt="Facebook">
-        <img src="/public/images/instagram.png" alt="Instagram">
-        <img src="/public/images/twitter.png" alt="Twitter">
+        <img src="/images/facebook.png" alt="Facebook">
+        <img src="/images/instagram.png" alt="Instagram">
+        <img src="/images/twitter.png" alt="Twitter">
       </div>
     </div>
 
     <div class="footer-right">
       <p class="footer-title">Contato</p>
       <ul class="footer-contato">
-        <li><img src="/public/images/Phone.png" alt="telefone"> +55 47 40045263</li>
-        <li><img src="/public/images/relogio.png" alt="relogio"> 8h às 23h - Seg a Sex</li>
-        <li><img src="/public/images/Mail.png" alt="email"> contato@ifbooks.com</li>
+        <li><img src="/images/Phone.png" alt="telefone"> +55 47 40045263</li>
+        <li><img src="/images/relogio.png" alt="relogio"> 8h às 23h - Seg a Sex</li>
+        <li><img src="/images/Mail.png" alt="email"> contato@ifbooks.com</li>
       </ul>
       <div class="footer-payment">
-        <img src="/public/images/paypal.png" alt="PayPal">
-        <img src="/public/images/mastercard.png" alt="MasterCard">
-        <img src="/public/images/visa.png" alt="Visa">
+        <img src="/images/paypal.png" alt="PayPal">
+        <img src="/images/mastercard.png" alt="MasterCard">
+        <img src="/images/visa.png" alt="Visa">
       </div>
     </div>
   </div>
