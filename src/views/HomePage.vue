@@ -10,7 +10,7 @@ export default {
     title: "Comigo na Livraria",
     author: "Martha Medeiros",
     price: "32,24",
-    image: '/src/assets/images/comigonalivraria.jpg',
+    image: '/public/images/comigonalivraria.jpg',
     synopsis: "Martha Medeiros celebra sua paixão pelos livros e a leitura como um caminho para o crescimento pessoal."
   },
   {
@@ -18,7 +18,7 @@ export default {
     title: "Quincas Borba",
     author: "Machado de Assis",
     price: "32,24",
-    image: "/src/assets/images/quincasborba.jpg",
+    image: "/public/images/quincasborba.jpg",
     synopsis: "Quincas Borba narra a ascensão e queda de Rubião, um ingênuo professor que herda uma fortuna e acaba sendo explorado, enlouquecendo e morrendo em Barbacena."
   },
   {
@@ -26,7 +26,7 @@ export default {
     title: "A livraria",
     author: "Penelope Fitzgerald",
     price: "13,94",
-    image: "/src/assets/images/penelope.jpg",
+    image: "/public/images/penelope.jpg",
     synopsis: "A Livraria narra a luta de Florence Green para abrir uma livraria em uma cidade conservadora, enfrentando forte oposição e desafios que ameaçam seu sonho."
   },
   {
@@ -34,7 +34,7 @@ export default {
     title: "A Hora da Estrela",
     author: "Clarice Lispector",
     price: "16,84",
-    image: "/src/assets/images/ahoradaestrela.jpg",
+    image: "/public/images/ahoradaestrela.jpg",
     synopsis: "Clarice Lispector narra a vida de Macabéa, uma jovem nordestina ingênua e solitária que busca um sentido para sua existência no Rio de Janeiro."
   },
   {
@@ -42,7 +42,7 @@ export default {
     title: "O Alienista",
     author: "Colson Whitehead",
     price: "26,92",
-    image: "/src/assets/images/alienista.jpg",
+    image: "/public/images/alienista.jpg",
     synopsis: "Conta a história do médico Simão Bacamarte, que funda um hospício e começa a internar quase toda a cidade, questionando os limites da sanidade."
   },
   {
@@ -50,7 +50,7 @@ export default {
     title: "Mar Morto",
     author: "Jorge Amado",
     price: "13,95",
-    image: "/src/assets/images/marmorto.jpg",
+    image: "/public/images/marmorto.jpg",
     synopsis: "Jorge Amado retrata a vida dos pescadores da Bahia, focando na relação entre Guma e Lívia, marcada pelo destino trágico ligado ao mar."
   },
   {
@@ -58,7 +58,7 @@ export default {
     title: "Grande sertão: varedas",
     author: "João Guimarães Rosa",
     price: "26,04",
-    image: "/src/assets/images/grandesertao.jpg",
+    image: "/public/images/grandesertao.jpg",
     synopsis: "Guimarães Rosa apresenta a jornada de Riobaldo, um ex-jagunço que reflete sobre sua vida, seu amor por Diadorim e os dilemas do sertão."
   },
   {
@@ -66,7 +66,7 @@ export default {
     title: "Flor de Poemas",
     author: "Cecília Meireles",
     price: "15,81",
-    image: "/src/assets/images/flordepoemas.jpg",
+    image: "/public/images/flordepoemas.jpg",
     synopsis: "Cecília Meireles reúne uma coletânea de poesias que exploram temas como amor, saudade, infância e a beleza da vida."
   }
 ]
@@ -85,7 +85,7 @@ export default {
   </div>
     <div class="search">
         <input type="text" placeholder="Pesquisar">
-        <button><img src="/src/assets/images/lupa.png" alt="lupa"></button>
+        <button><img src="/public/images/lupa.png" alt="lupa"></button>
     </div>
     <nav>
         <ul>
@@ -97,15 +97,15 @@ export default {
     </nav>
 <div class="iconbase">
     <div class="icon">
- <router-link to="/carrinho"><img src="/src/assets/images/carrinho1.png" alt="carrinho"></router-link>
+ <router-link to="/carrinho"><img src="/public/images/carrinho1.png" alt="carrinho"></router-link>
     </div>
     <div class="divisor2"></div>
     <div class="icon">
-        <img src="/src/assets/images/heart.png" alt="favoritos">
+        <img src="/public/images/heart.png" alt="favoritos">
     </div>
     <div class="divisor2"></div>
     <div class="icon">
-        <img src="/src/assets/images/usuario.png" alt="usuario">
+        <img src="/public/images/usuario.png" alt="usuario">
     </div>
 </div>
   </header>
@@ -121,15 +121,15 @@ export default {
       </p>
       <button>Acessar página do livro</button>
     </div>
-    <img class="imagem-livro" src="/src/assets/images/cemanosdesolidao.jpg" alt="Livro cem anos de solidão" />
+    <img class="imagem-livro" src="/public/images/cemanosdesolidao.jpg" alt="Livro cem anos de solidão" />
   </div>
     <div class="linha"></div>
     <div class="info">
-     <p><img src="/src/assets/images/Truck.png" alt="caminhão">Frete grátis para SC</p>
+     <p><img src="/public/images/Truck.png" alt="caminhão">Frete grátis para SC</p>
      <div class="divider"></div>
-     <p><img src="/src/assets/images/estrela.png" alt="estrela">Livros recomendados</p>
+     <p><img src="/public/images/estrela.png" alt="estrela">Livros recomendados</p>
      <div class="divider"></div>
-     <p><img src="/src/assets/images/livroaberto.png" alt="livro aberto">Mais vendidos</p>
+     <p><img src="/public/images/livroaberto.png" alt="livro aberto">Mais vendidos</p>
     </div>
       <div class="linha"></div>
     <div class="lançamento">
@@ -153,23 +153,23 @@ export default {
     <div class="footer-left">
       <p class="footer-logo">IFbooks</p>
       <div class="footer-social">
-        <img src="/src/assets/images/facebook.png" alt="Facebook">
-        <img src="/src/assets/images/instagram.png" alt="Instagram">
-        <img src="/src/assets/images/twitter.png" alt="Twitter">
+        <img src="/public/images/facebook.png" alt="Facebook">
+        <img src="/public/images/instagram.png" alt="Instagram">
+        <img src="/public/images/twitter.png" alt="Twitter">
       </div>
     </div>
 
     <div class="footer-right">
       <p class="footer-title">Contato</p>
       <ul class="footer-contato">
-        <li><img src="/src/assets/images/Phone.png" alt="telefone"> +55 47 40045263</li>
-        <li><img src="/src/assets/images/relogio.png" alt="relogio"> 8h às 23h - Seg a Sex</li>
-        <li><img src="/src/assets/images/Mail.png" alt="email"> contato@ifbooks.com</li>
+        <li><img src="/public/images/Phone.png" alt="telefone"> +55 47 40045263</li>
+        <li><img src="/public/images/relogio.png" alt="relogio"> 8h às 23h - Seg a Sex</li>
+        <li><img src="/public/images/Mail.png" alt="email"> contato@ifbooks.com</li>
       </ul>
       <div class="footer-payment">
-        <img src="/src/assets/images/paypal.png" alt="PayPal">
-        <img src="/src/assets/images/mastercard.png" alt="MasterCard">
-        <img src="/src/assets/images/visa.png" alt="Visa">
+        <img src="/public/images/paypal.png" alt="PayPal">
+        <img src="/public/images/mastercard.png" alt="MasterCard">
+        <img src="/public/images/visa.png" alt="Visa">
       </div>
     </div>
   </div>
